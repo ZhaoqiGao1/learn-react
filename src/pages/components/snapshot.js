@@ -9,7 +9,7 @@ export default function Counter() {
       <button onClick={() => {
         setNumber(number + 1);
         setNumber(number + 1);
-        setNumber(number + 1);
+        setNumber(number + 3);
       }}>+3</button>
     </>
   )
