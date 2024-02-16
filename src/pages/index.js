@@ -2,12 +2,12 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Recipes from './qcomps/recipes'
+import Counter from './components/queueUpdates'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Recipes />
+        <Counter />
     </div>
   )
 }
